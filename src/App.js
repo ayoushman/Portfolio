@@ -1,9 +1,11 @@
 import React from 'react'
 
 import "./css/App.css"
-import Navbar from './components/NavBar'
-import Home from "./sections/Home"
-import Sicons from './components/SocialIcons'
+import Navbar from './sections/components/files/NavBar'
+import Home from "./sections/files/Home"
+import Sicons from './sections/components/files/SocialIcons'
+import { Services } from './sections/files/Services'
+import About from './sections/files/About'
 
 const App = () => {
 
@@ -12,6 +14,8 @@ const App = () => {
             <Navbar />
             <Home />
             <Sicons />
+            <Services />
+            <About />
         </div>)
 
 }
