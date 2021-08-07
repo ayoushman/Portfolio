@@ -1,0 +1,12 @@
+.App {
+  background-color: rgb(2, 2, 2);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+}

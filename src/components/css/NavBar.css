@@ -1,0 +1,20 @@
+.Navbar_div {
+  width: 70%;
+  margin-bottom: 4rem;
+}
+
+.NavList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  font-weight: 100;
+}
+/*# sourceMappingURL=NavBar.css.map */

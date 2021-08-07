@@ -1,0 +1,28 @@
+.NavComponent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: fit-content;
+  :hover {
+    text-decoration: underline;
+    transition: all 0.2s ease-out;
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+}
+
+.link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  /* or 167% */
+  letter-spacing: 0.04em;
+  margin: 0.3em;
+  color: #e0e0e0;
+}
+.none {
+  display: none;
+}
