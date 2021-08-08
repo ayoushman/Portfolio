@@ -7,12 +7,11 @@ const CCard = () => {
             <div className="contact_card">
                 <div className="form_content">
 
-
-
-                    <label className="label">Name <input /></label>
-                    <label className="label">Name <input /></label>
-                    <label className="label">Name<input /></label>
-
+                    <label className="label">Name <input className="input" /></label>
+                    <br />
+                    <label className="label">Email <input className="input" /></label>
+                    <br />
+                    <label className="label">Message <input className="input" /></label>
 
                 </div>
 

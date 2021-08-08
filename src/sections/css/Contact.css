@@ -1,0 +1,33 @@
+.main_contact {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5rem;
+}
+
+.main_contact .sbm_btn_div .sbm_btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1f1f1f;
+  width: 8rem;
+  height: 2rem;
+  background: linear-gradient(255.56deg, #d5d3d3 26.17%, rgba(255, 255, 255, 0) 97.71%);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+/*# sourceMappingURL=Contact.css.map */
