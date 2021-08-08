@@ -2,20 +2,21 @@
   display: flex;
   min-height: fit-content;
   flex-direction: column;
-  .head {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 56px;
 
-    letter-spacing: -0.02em;
-    // margin-bottom: -0.2rem;
-    color: #ffffff;
-  }
+  .child_div {
+    .head {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 56px;
 
-  .line {
-    width: 524px;
-    height: 5px;
-    background: #88238a;
+      letter-spacing: -0.02em;
+      // margin-bottom: -0.2rem;
+      color: #ffffff;
+    }
+
+    .line {
+      height: 5px;
+    }
   }
 }

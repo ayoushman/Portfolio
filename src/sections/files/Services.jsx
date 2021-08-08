@@ -8,7 +8,12 @@ export const Services = () => {
     return (
         <div className="service_div">
             <div className="header">
-                <MainHead headName="Services" />
+                <MainHead style1={{
+                    display: "flex",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                    alignItems: "center"
+                }} style={{ width: "20%", background: "#88238a" }} headName="Services" />
 
             </div>
             <div className="service_cards">

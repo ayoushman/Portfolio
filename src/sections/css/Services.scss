@@ -1,13 +1,15 @@
 .service_div {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
 
   .header {
     text-align: center;
+    width: 100%;
   }
 
   .service_cards {

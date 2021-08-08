@@ -6,6 +6,9 @@ import Home from "./sections/files/Home"
 import Sicons from './sections/components/files/SocialIcons'
 import { Services } from './sections/files/Services'
 import About from './sections/files/About'
+import Projects from './sections/files/Projects'
+import Contact from './sections/files/Contact'
+
 
 const App = () => {
 
@@ -16,6 +19,8 @@ const App = () => {
             <Sicons />
             <Services />
             <About />
+            <Projects />
+            <Contact />
         </div>)
 
 }

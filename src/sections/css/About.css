@@ -15,6 +15,7 @@
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 10rem;
 }
 
 .about_section .main {
@@ -109,9 +110,178 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 42px;
   letter-spacing: -0.02em;
   color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+.about_section .skills_div .Head {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  color: #ffffff;
+}
+
+.about_section .skills_div .Lang_skills {
+  width: 100%;
+}
+
+.about_section .skills_div .Lang_skills .Lang_sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about_section .skills_div .Lang_skills .Lang_sec .lang_bar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.about_section .skills_div .Web_skills {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.about_section .skills_div .Web_skills .Web_sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.about_section .skills_div .Web_skills .Web_sec .Web_bar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.about_section .skills_div .App_skill {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.about_section .skills_div .App_skill .App_sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.about_section .skills_div .App_skill .App_sec .App_bar {
+  margin-top: 4rem;
+  width: 40%;
+}
+
+.about_section .skills_div .Db_skills {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.about_section .skills_div .Db_skills .Db_sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.about_section .skills_div .Db_skills .Db_sec .Db_bar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.about_section .skills_div .U_skills {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.about_section .skills_div .U_skills .U_sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.about_section .skills_div .U_skills .U_sec .U_bar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.about_section .skills_div .Ds_skills {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.about_section .skills_div .Ds_skills .Ds_sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.about_section .skills_div .Ds_skills .Ds_sec .Ds_bar {
+  margin-top: 4rem;
+  width: 40%;
+  margin-left: -1rem;
+}
+
+.about_section .skills_div .Linux_skills {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.about_section .skills_div .Linux_skills .Linux_sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.about_section .skills_div .Linux_skills .Linux_sec .Linux_bar {
+  margin-top: 2rem;
+  margin-left: 6.5rem;
+  width: 40%;
 }
 /*# sourceMappingURL=About.css.map */

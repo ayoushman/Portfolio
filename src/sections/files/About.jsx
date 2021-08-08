@@ -2,6 +2,7 @@ import React from "react"
 
 import MainHead from "../components/files/MainHead"
 import ProfilePic from "../assets/Profile.svg"
+import SkillBar from "../components/files/SkillBar"
 import "../css/About.css"
 
 
@@ -15,7 +16,7 @@ const About = () => {
                     <img className="profile_img" src={ProfilePic} />
                 </div>
                 <div className="content">
-                    <MainHead headName="About Me" />
+                    <MainHead style={{ width: "90%", background: "#88238a" }} headName="About Me" />
                     <p className="profile_summary">
 
 
@@ -30,6 +31,73 @@ const About = () => {
 
         <div className="skills_div">
             <h3 className="sub_head">Skills</h3>
+            <div className="Lang_skills">
+                <div className="Lang_sec"><h4 className="Head">Languages</h4>
+                    <div className="lang_bar">
+                        <SkillBar style={{ width: "50%" }} barName="C++" />
+                        <SkillBar style={{ width: "45%" }} barName="JAVA" />
+                        <SkillBar style={{ width: "70%" }} barName="JAVASCRIPT" />
+                        <SkillBar style={{ width: "60%" }} barName="PYTHON" />
+                    </div>
+                </div>
+            </div>
+            <div className="Web_skills">
+                <div className="Web_sec"><h4 className="Head">Web<br /> Devlopment</h4>
+                    <div className="Web_bar">
+                        <SkillBar style={{ width: "90%" }} barName="HTML/SASS" />
+                        <SkillBar style={{ width: "80%" }} barName="REACT" />
+                        <SkillBar style={{ width: "70%" }} barName="JAVASCRIPT" />
+                        <SkillBar style={{ width: "50%" }} barName="NODE JS" />
+                    </div>
+                </div>
+            </div>
+
+            {/* <div className="App_skill">
+                <div className="App_sec"><h4 className="Head">App<br /> Devlopment</h4>
+                    <div className="App_bar">
+                        <SkillBar barName="REACT NATIVE" />
+
+                    </div>
+                </div>
+            </div> */}
+            <div className="Db_skills">
+                <div className="Db_sec"><h4 className="Head">Database</h4>
+                    <div className="Db_bar">
+                        <SkillBar style={{ width: "60%" }} barName="MongoDB" />
+                        <SkillBar style={{ width: "40%" }} barName="MYSql" />
+                        <SkillBar style={{ width: "50%" }} barName="FIREBASE" />
+
+                    </div>
+                </div>
+            </div>
+            <div className="U_skills">
+                <div className="U_sec"><h4 className="Head">UI/UX</h4>
+                    <div className="U_bar">
+                        <SkillBar style={{ width: "70%" }} barName="FIGMA" />
+                        <SkillBar style={{ width: "80%" }} barName="ADOBE ILUSTRATOR" />
+                        <SkillBar style={{ width: "30%" }} barName="ADOBE PHOTOSHOP" />
+
+                    </div>
+                </div>
+            </div>
+            <div className="Ds_skills">
+                <div className="Ds_sec"><h4 className="Head">DataStructures<br />Algorithams</h4>
+                    <div className="Ds_bar">
+                        <SkillBar style={{ width: "60%" }} />
+
+
+                    </div>
+                </div>
+            </div>
+            <div className="Linux_skills">
+                <div className="Linux_sec"><h4 className="Head">Linux</h4>
+                    <div className="Linux_bar">
+                        <SkillBar style={{ width: "50%" }} />
+
+
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>)

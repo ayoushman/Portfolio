@@ -11,7 +11,7 @@
           flex-direction: column;
 }
 
-.main_div .head {
+.main_div .child_div .head {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -20,9 +20,7 @@
   color: #ffffff;
 }
 
-.main_div .line {
-  width: 524px;
+.main_div .child_div .line {
   height: 5px;
-  background: #88238a;
 }
 /*# sourceMappingURL=mainhead.css.map */
