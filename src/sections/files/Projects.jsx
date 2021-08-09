@@ -9,7 +9,7 @@ const Projects = () => {
 
     const [project, setProject] = useState(Project[2])
     return (
-        <div className="main_project">
+        <div id="Projects" className="main_project">
             <div className="projects_div">
                 <div className="parahead"> <MainHead style1={{
                     display: "flex",

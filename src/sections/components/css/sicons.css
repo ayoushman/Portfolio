@@ -6,10 +6,9 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
   margin-bottom: 10rem;
-  margin-top: 2rem;
   margin-left: 4rem;
 }
 

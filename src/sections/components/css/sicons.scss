@@ -2,13 +2,13 @@
   width: 20%;
   display: flex;
   justify-content: space-evenly;
-  align-self: flex-start;
+  align-self: baseline;
   margin-bottom: 10rem;
   .icon {
     color: rgb(255, 255, 255);
     font-size: 25px;
   }
-  margin-top: 2rem;
+
   margin-left: 4rem;
 
   :hover {

@@ -6,7 +6,7 @@ import "../css/Services.css"
 
 export const Services = () => {
     return (
-        <div className="service_div">
+        <div id="Services" className="service_div">
             <div className="header">
                 <MainHead style1={{
                     display: "flex",
