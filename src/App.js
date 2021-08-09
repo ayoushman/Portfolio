@@ -17,10 +17,9 @@ const App = () => {
             <div id="Home" className="home_sec"><Navbar />
 
                 <Home />
-                <Sicons /></div>
-
-
-            <Services id="Services" />
+                <Sicons />
+            </div>
+            <Services />
             <About />
             <Projects />
             <Contact />

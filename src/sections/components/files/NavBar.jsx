@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Link activeClass="active" smooth={true} to="Services">  <NavComponent LinkName="Services" /></Link>
                 <Link activeClass="active" smooth={true} to="About"> <NavComponent LinkName="About" /></Link>
                 <Link activeClass="active" smooth={true} to="Projects"> <NavComponent LinkName="Projects" /></Link>
-                <Link activeClass="active" smooth={true} to="Contact"> <NavComponent LinkName="ContactMe" /></Link>
+                <Link activeClass="active" smooth={true} to="Contact"> <NavComponent LinkName="Contact Me" /></Link>
             </ui>
 
         </div>)

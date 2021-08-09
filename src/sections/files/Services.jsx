@@ -17,10 +17,10 @@ export const Services = () => {
 
             </div>
             <div className="service_cards">
-                <ServiceCard />
-                <ServiceCard />
-                <ServiceCard />
-                <ServiceCard />
+                <ServiceCard headName="Web Development" para="i got my basics clear and have learned all the neccesary topics required to build a full stack application" />
+                <ServiceCard headName="Web Development" para="i got my basics clear and have learned all the neccesary topics required to build a full stack application" />
+                <ServiceCard headName="Web Development" para="i got my basics clear and have learned all the neccesary topics required to build a full stack application" />
+                <ServiceCard headName="Web Development" para="i got my basics clear and have learned all the neccesary topics required to build a full stack application" />
             </div>
 
         </div>

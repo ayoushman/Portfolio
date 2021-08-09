@@ -1,14 +1,17 @@
 import React from "react"
 
-import "../css/SecCard.css"
+import "../css/ServiceCard.css"
 
 
 
-const ServiceCard = () => {
+const ServiceCard = (props) => {
     return (
 
         <div className="sec_card">
-
+            <div className="card_content">
+                <h3 className="head_service">{props.headName}</h3>
+                <p className="para_service">{props.para}</p>
+            </div>
         </div>
     )
 }

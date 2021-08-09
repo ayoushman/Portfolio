@@ -1,6 +1,8 @@
 .main_project {
-  height: 100vh;
-  margin-bottom: 7rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 10rem;
 }
 
 .parahead {
