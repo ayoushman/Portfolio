@@ -1,6 +1,9 @@
 .main_card {
   width: 45rem;
-  height: 30rem;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  padding-bottom: 3rem;
   background: linear-gradient(253.02deg, #c40736e3 -28.74%, rgba(104, 4, 59, 0.808) -28.73%, rgba(73, 5, 87, 0.603) 110.68%);
   -webkit-filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.25));
@@ -12,10 +15,15 @@
 }
 
 .main_card .contact_card {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
 }
 
@@ -39,6 +47,7 @@
   line-height: 42px;
   margin-top: 2rem;
   color: #ffffff;
+  margin-bottom: 1rem;
 }
 
 .main_card .contact_card .form_content .input {
@@ -50,5 +59,6 @@
   color: #ffffff;
   padding: 0.5rem;
   width: 80%;
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=Ccard.css.map */

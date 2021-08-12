@@ -29,7 +29,7 @@ const Projects = () => {
     }
 
     return (
-        <div id="Projects" className="main_project">
+        <section id="Projects" className="main_project">
             <div className="projects_div">
                 <div className="parahead"> <MainHead style1={{
                     display: "flex",
@@ -53,7 +53,7 @@ const Projects = () => {
                 <div className="btn_div"></div>
 
             </div>
-        </div>
+        </section>
     )
 }
 

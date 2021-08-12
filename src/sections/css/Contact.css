@@ -1,8 +1,6 @@
 .main_contact {
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  min-height: 100vh;
   margin-top: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;

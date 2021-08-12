@@ -1,6 +1,7 @@
 .main_card {
   width: 45rem;
-  height: 30rem;
+  min-height: fit-content;
+  padding-bottom: 3rem;
 
   background: linear-gradient(
     253.02deg,
@@ -14,8 +15,10 @@
   display: flex;
 
   .contact_card {
-    height: fit-content;
+    min-height: fit-content;
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
 
     width: 100%;
     .form_content {
@@ -32,6 +35,7 @@
         margin-top: 2rem;
 
         color: #ffffff;
+        margin-bottom: 1rem;
       }
 
       .input {
@@ -43,6 +47,7 @@
         color: #ffffff;
         padding: 0.5rem;
         width: 80%;
+        margin-bottom: 1rem;
       }
     }
   }

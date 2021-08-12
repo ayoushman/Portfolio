@@ -1,5 +1,6 @@
 import React from "react"
-
+import axios from "axios"
+import { saveAs } from 'file-saver'
 import MainHead from "../components/files/MainHead"
 import ProfilePic from "../assets/Profile.svg"
 import SkillBar from "../components/files/SkillBar"
@@ -7,7 +8,25 @@ import "../css/About.css"
 
 
 const About = () => {
-    return (<div className="about_section">
+
+
+    const handleDownload = async () => {
+
+        try {
+            const { data } = await axios({
+                method: 'get',
+                url: 'http://localhost:5000/portfolio/downloadpdf',
+                responseType: 'arraybuffer'
+
+            })
+            const blob = new Blob([data], { type: 'application/pdf' })
+            saveAs(blob, "Resume.pdf")
+        } catch (error) {
+
+        }
+
+    }
+    return (<section className="about_section">
 
         <div id="About" className="main">
             <div className="header">
@@ -22,7 +41,7 @@ const About = () => {
 
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices arcu sed velit sagittis dictum. In nec est pharetra, vehicula sapien sed, fermentum libero. <br />Nulla diam eros, feugiat vitae consectetur et, <br />auctor vel neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam convallis vel dui quis pulvinar. Sed urna ante, feugiat vel varius non, porttitor quis urna. Integer mollis finibus nunc at dictum.<br /> Donec eget tortor congue, malesuada mauris ut, tincidunt massa. Aenean ultrices, odio ut fermentum mattis, tortor diam mattis diam, a vehicula ex erat interdum nunc. Vestibulum vehicula convallis magna, ac sagittis odio congue quis.
                     </p>
-                    <button className="cv_btn">Download CV</button>
+                    <button onClick={handleDownload} className="cv_btn">Download CV</button>
                 </div>
             </div>
 
@@ -100,7 +119,7 @@ const About = () => {
             </div>
 
         </div>
-    </div>)
+    </section>)
 }
 
 

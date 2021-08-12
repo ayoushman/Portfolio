@@ -7,7 +7,7 @@ export const Project = [
     {
         id: 2,
         img: "https://images.unsplash.com/photo-1628414832152-aafba4dec0d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet dolor dapibus erat semper blandit nec non metus. Suspendisse ut iaculis mauris, at eleifend ante. Aliquam enim enim, efficitur et lorem ac, rutrum varius nisl. Cras vulputate suscipit sem at commodo"
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
     },
     {
         id: 3,
@@ -17,7 +17,7 @@ export const Project = [
     {
         id: 4,
         img: "https://images.unsplash.com/photo-1628414690421-6f4a247cb772?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet dolor dapibus erat semper blandit nec non metus. Suspendisse ut iaculis mauris, at eleifend ante. Aliquam enim enim, efficitur et lorem ac, rutrum varius nisl. Cras vulputate suscipit sem at commodo"
+        description: "Lorem ipsum dolor sit amet,Vestibulum sit amet dolor dapibus erat semper blandit nec non metus. Suspendisse ut iaculis mauris, at eleifend ante. Aliquam enim enim, efficitur et lorem ac, rutrum varius nisl. Cras vulputate suscipit sem at commodo consectetur adipiscing elit. Vestibulum sit amet dolor dapibus erat semper blandit nec non metus. Suspendisse ut iaculis mauris, at eleifend ante. Aliquam enim enim, efficitur et lorem ac, rutrum varius nisl. Cras vulputate suscipit sem at commodo"
     },
     {
         id: 5,
