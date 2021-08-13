@@ -1,3 +1,7 @@
+.main_div {
+  margin: 1rem;
+}
+
 .main_div .bar_name {
   font-family: Roboto;
   font-style: normal;
